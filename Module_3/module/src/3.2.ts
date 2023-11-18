@@ -18,7 +18,6 @@
     }
   }
   const student = new Student("Mr. Student", 19, "RAJ");
-  student.getSleep(7);
 
   class Teacher extends Parent {
     constructor(
@@ -35,6 +34,9 @@
     }
   }
   const teacher = new Teacher("Mr.Teacher", 41, "DHK", "Professor");
+  //
+
+  student.getSleep(7);
   teacher.getSleep(8);
   teacher.takeClass(2);
   //
