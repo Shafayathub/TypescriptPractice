@@ -1,5 +1,5 @@
 {
-  // Type guard
+  // Type guard --- instanceof
   class Animal {
     name: string;
     species: string;
